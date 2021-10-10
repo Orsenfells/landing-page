@@ -17,13 +17,43 @@ body {
     list-style: none;
     display: flex;
     gap: 16px;
+    color: #e5e7eb
 }
 .hero-signup {
     display: flex;
-    padding: 50px 200px;
+    padding: 101px 200px;
     background: #1F2937;
     color: white;
+    align-items: center;
+    
+}
+.signup {
+    flex: 1;
 }
 .signup h2 {
     font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin-bottom: 4px
+}
+.signup p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 4px
+}
+.signup button {
+    background-color: #3882F6;
+    border: #3882F6;
+    color: white;
+    padding: 5px 26px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.hero {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    align-self: stretch;
 }
