@@ -57,3 +57,31 @@ body {
     background-color: grey;
     align-self: stretch;
 }
+.random-info {
+    padding: 101px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.random-info h3 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937
+}
+.cards {
+    display: flex;
+    gap: 32px;
+}
+.card-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    border: solid #3882F6 3px;
+    border-radius: 8px;
+    width: 105px;
+    height: 110px;
+}
