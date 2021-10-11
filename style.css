@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header {
     display: flex;
@@ -25,7 +26,7 @@ body {
     background: #1F2937;
     color: white;
     align-items: center;
-    
+    gap: 16px;
 }
 .signup {
     flex: 1;
@@ -84,4 +85,21 @@ body {
     border-radius: 8px;
     width: 105px;
     height: 110px;
+}
+
+.quote-container {
+    padding: 100px 150px;
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+}
+.quoted {
+    font-weight: bold;
+    align-self: flex-end;
 }
