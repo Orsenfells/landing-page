@@ -88,7 +88,7 @@ body {
 }
 
 .quote-container {
-    padding: 100px 150px;
+    padding: 100px 270px;
     font-size: 36px;
     color: #1F2937;
     background-color: #E5E7EB;
@@ -102,4 +102,17 @@ body {
 .quoted {
     font-weight: bold;
     align-self: flex-end;
+}
+.call-container {
+    display: flex;
+    padding: 50px 50px;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action {
+    display: flex;
+    flex: 1;
+    background-color: #3882F6;
+    color: white
+    padding: 
 }
