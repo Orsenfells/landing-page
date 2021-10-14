@@ -105,7 +105,7 @@ body {
 }
 .call-container {
     display: flex;
-    padding: 50px 50px;
+    padding: 50px 100px;
     justify-content: center;
     align-items: center;
 }
@@ -113,6 +113,17 @@ body {
     display: flex;
     flex: 1;
     background-color: #3882F6;
-    color: white
-    padding: 
+    color: white;
+    justify-content: space-between;
+    padding: 25px 90px;
+    border-radius: 8px;
+    align-items: center;
+}
+.call-to-action button {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: 550;
+    padding: 5px 25px;
+    border-radius: 6px;
 }
