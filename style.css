@@ -127,3 +127,10 @@ body {
     padding: 5px 25px;
     border-radius: 6px;
 }
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
